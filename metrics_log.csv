@@ -1,0 +1,6 @@
+Kondisi,Strategi,Trainable Params,Total Params,Learning Rate,Epoch Konvergen,Durasi (s),Best Val Loss,Peak Val Acc (%),Val Acc @ Best Loss (%),Test Acc (%),Test Macro F1
+B1 (Baseline from Scratch),Random Init (Train All),"11,181,642","11,181,642",1e-3 (All),Ep 6 (dari 10),196.9,1.7334,40.94% (Ep 6),40.94%,34.45%,0.3259
+B2 (Feature Extraction),Frozen Backbone (Linear Head),"5,130","11,181,642",1e-3 (fc),Ep 22 (dari 24),404.1,0.1404,95.30% (Ep 8),93.96%,96.66%,0.9667
+B3 (Progressive Fine-Tuning),Unfreeze layer4 + fc (Differential LR),"8,398,858","11,181,642","1e-4 (layer4), 1e-3 (fc)",Ep 8 (dari 12),214.5,0.0761,97.32% (Ep 8),97.32%,96.99%,0.9700
+B4 (No Augmentation Control),Unfreeze layer4 (Tanpa Augmentasi),"8,398,858","11,181,642","1e-4 (layer4), 1e-3 (fc)",Ep 8 (dari 12),151.7,0.1120,95.97% (Ep 7),95.64%,96.32%,0.9634
+B5 (EfficientNet-B0 Bonus),Unfreeze top stage + Head,"424,970","4,020,358","1e-4 (stage), 1e-3 (head)",Ep 16 (dari 20),367.6,0.1470,95.64% (Ep 14),95.30%,97.32%,0.9732

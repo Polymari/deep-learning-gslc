@@ -1,0 +1,79 @@
+condition,epoch,train_loss,val_loss,val_acc,val_acc_pct
+B1 (Baseline from Scratch),1,2.363,2.2375,0.1745,17.45
+B1 (Baseline from Scratch),2,2.0857,2.3657,0.1544,15.44
+B1 (Baseline from Scratch),3,2.0156,1.9257,0.2852,28.52
+B1 (Baseline from Scratch),4,1.9227,2.4183,0.2852,28.52
+B1 (Baseline from Scratch),5,1.8439,1.8573,0.3389,33.89
+B1 (Baseline from Scratch),6,1.7278,1.7334,0.4094,40.94
+B1 (Baseline from Scratch),7,1.6652,1.9522,0.3423,34.23
+B1 (Baseline from Scratch),8,1.6708,2.5389,0.3121,31.21
+B1 (Baseline from Scratch),9,1.6241,2.0783,0.3289,32.89
+B1 (Baseline from Scratch),10,1.5458,1.8015,0.3893,38.93
+B2 (Feature Extraction),1,1.4055,0.7327,0.8423,84.23
+B2 (Feature Extraction),2,0.6009,0.4102,0.9329,93.29
+B2 (Feature Extraction),3,0.4102,0.3459,0.9262,92.62
+B2 (Feature Extraction),4,0.3615,0.2921,0.9329,93.29
+B2 (Feature Extraction),5,0.2978,0.2547,0.9329,93.29
+B2 (Feature Extraction),6,0.2698,0.2343,0.9262,92.62
+B2 (Feature Extraction),7,0.2655,0.2125,0.943,94.3
+B2 (Feature Extraction),8,0.2176,0.2017,0.953,95.3
+B2 (Feature Extraction),9,0.2176,0.193,0.9362,93.62
+B2 (Feature Extraction),10,0.1963,0.1873,0.943,94.3
+B2 (Feature Extraction),11,0.1899,0.1797,0.9497,94.97
+B2 (Feature Extraction),12,0.1762,0.1889,0.943,94.3
+B2 (Feature Extraction),13,0.1759,0.1679,0.9396,93.96
+B2 (Feature Extraction),14,0.1661,0.1691,0.9396,93.96
+B2 (Feature Extraction),15,0.1688,0.1692,0.9396,93.96
+B2 (Feature Extraction),16,0.1614,0.1557,0.9463,94.63
+B2 (Feature Extraction),17,0.1465,0.1571,0.9463,94.63
+B2 (Feature Extraction),18,0.1443,0.1524,0.9396,93.96
+B2 (Feature Extraction),19,0.1528,0.1549,0.9497,94.97
+B2 (Feature Extraction),20,0.1328,0.1517,0.943,94.3
+B2 (Feature Extraction),21,0.1328,0.1482,0.943,94.3
+B2 (Feature Extraction),22,0.1488,0.1404,0.9396,93.96
+B2 (Feature Extraction),23,0.1324,0.1569,0.943,94.3
+B2 (Feature Extraction),24,0.1105,0.1433,0.9463,94.63
+B3 (Progressive Fine-Tuning),1,0.7034,0.1887,0.9362,93.62
+B3 (Progressive Fine-Tuning),2,0.1793,0.1545,0.9497,94.97
+B3 (Progressive Fine-Tuning),3,0.1046,0.1199,0.953,95.3
+B3 (Progressive Fine-Tuning),4,0.0734,0.113,0.9564,95.64
+B3 (Progressive Fine-Tuning),5,0.052,0.1163,0.9631,96.31
+B3 (Progressive Fine-Tuning),6,0.0377,0.0822,0.9698,96.98
+B3 (Progressive Fine-Tuning),7,0.0325,0.0986,0.953,95.3
+B3 (Progressive Fine-Tuning),8,0.0172,0.0761,0.9732,97.32
+B3 (Progressive Fine-Tuning),9,0.0164,0.0903,0.9564,95.64
+B3 (Progressive Fine-Tuning),10,0.0134,0.1113,0.9497,94.97
+B3 (Progressive Fine-Tuning),11,0.0125,0.1464,0.9564,95.64
+B3 (Progressive Fine-Tuning),12,0.0176,0.1316,0.953,95.3
+B4 (No Augmentation Control),1,0.6705,0.1968,0.9362,93.62
+B4 (No Augmentation Control),2,0.0976,0.1438,0.9463,94.63
+B4 (No Augmentation Control),3,0.028,0.1411,0.9463,94.63
+B4 (No Augmentation Control),4,0.0146,0.1301,0.9362,93.62
+B4 (No Augmentation Control),5,0.0102,0.1208,0.9497,94.97
+B4 (No Augmentation Control),6,0.0101,0.1311,0.9497,94.97
+B4 (No Augmentation Control),7,0.0061,0.1145,0.9597,95.97
+B4 (No Augmentation Control),8,0.004,0.112,0.9564,95.64
+B4 (No Augmentation Control),9,0.0028,0.1253,0.953,95.3
+B4 (No Augmentation Control),10,0.0029,0.1257,0.953,95.3
+B4 (No Augmentation Control),11,0.0018,0.1269,0.9564,95.64
+B4 (No Augmentation Control),12,0.0019,0.1199,0.943,94.3
+B5 (EfficientNet-B0 Bonus),1,1.3976,0.6656,0.9094,90.94
+B5 (EfficientNet-B0 Bonus),2,0.5728,0.408,0.9195,91.95
+B5 (EfficientNet-B0 Bonus),3,0.401,0.2948,0.9228,92.28
+B5 (EfficientNet-B0 Bonus),4,0.3254,0.2593,0.9396,93.96
+B5 (EfficientNet-B0 Bonus),5,0.2587,0.2328,0.9396,93.96
+B5 (EfficientNet-B0 Bonus),6,0.2223,0.2073,0.9463,94.63
+B5 (EfficientNet-B0 Bonus),7,0.2162,0.1924,0.9497,94.97
+B5 (EfficientNet-B0 Bonus),8,0.1786,0.1882,0.9362,93.62
+B5 (EfficientNet-B0 Bonus),9,0.1663,0.1721,0.953,95.3
+B5 (EfficientNet-B0 Bonus),10,0.159,0.1693,0.9396,93.96
+B5 (EfficientNet-B0 Bonus),11,0.1468,0.1729,0.9396,93.96
+B5 (EfficientNet-B0 Bonus),12,0.1424,0.1649,0.943,94.3
+B5 (EfficientNet-B0 Bonus),13,0.1363,0.1665,0.9497,94.97
+B5 (EfficientNet-B0 Bonus),14,0.1285,0.1567,0.9564,95.64
+B5 (EfficientNet-B0 Bonus),15,0.1218,0.163,0.9497,94.97
+B5 (EfficientNet-B0 Bonus),16,0.0983,0.147,0.953,95.3
+B5 (EfficientNet-B0 Bonus),17,0.091,0.1488,0.9463,94.63
+B5 (EfficientNet-B0 Bonus),18,0.0934,0.1521,0.943,94.3
+B5 (EfficientNet-B0 Bonus),19,0.0955,0.1605,0.9463,94.63
+B5 (EfficientNet-B0 Bonus),20,0.0783,0.1499,0.9463,94.63

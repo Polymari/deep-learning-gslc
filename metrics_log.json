@@ -1,0 +1,72 @@
+{
+  "B1 (Baseline from Scratch)": {
+    "Kondisi": "B1 (Baseline from Scratch)",
+    "Strategi": "Random Init (Train All)",
+    "Trainable Params": "11,181,642",
+    "Total Params": "11,181,642",
+    "Learning Rate": "1e-3 (All)",
+    "Epoch Konvergen": "Ep 6 (dari 10)",
+    "Durasi (s)": "196.9",
+    "Best Val Loss": "1.7334",
+    "Peak Val Acc (%)": "40.94% (Ep 6)",
+    "Val Acc @ Best Loss (%)": "40.94%",
+    "Test Acc (%)": "34.45%",
+    "Test Macro F1": "0.3259"
+  },
+  "B2 (Feature Extraction)": {
+    "Kondisi": "B2 (Feature Extraction)",
+    "Strategi": "Frozen Backbone (Linear Head)",
+    "Trainable Params": "5,130",
+    "Total Params": "11,181,642",
+    "Learning Rate": "1e-3 (fc)",
+    "Epoch Konvergen": "Ep 22 (dari 24)",
+    "Durasi (s)": "404.1",
+    "Best Val Loss": "0.1404",
+    "Peak Val Acc (%)": "95.30% (Ep 8)",
+    "Val Acc @ Best Loss (%)": "93.96%",
+    "Test Acc (%)": "96.66%",
+    "Test Macro F1": "0.9667"
+  },
+  "B3 (Progressive Fine-Tuning)": {
+    "Kondisi": "B3 (Progressive Fine-Tuning)",
+    "Strategi": "Unfreeze layer4 + fc (Differential LR)",
+    "Trainable Params": "8,398,858",
+    "Total Params": "11,181,642",
+    "Learning Rate": "1e-4 (layer4), 1e-3 (fc)",
+    "Epoch Konvergen": "Ep 8 (dari 12)",
+    "Durasi (s)": "214.5",
+    "Best Val Loss": "0.0761",
+    "Peak Val Acc (%)": "97.32% (Ep 8)",
+    "Val Acc @ Best Loss (%)": "97.32%",
+    "Test Acc (%)": "96.99%",
+    "Test Macro F1": "0.9700"
+  },
+  "B4 (No Augmentation Control)": {
+    "Kondisi": "B4 (No Augmentation Control)",
+    "Strategi": "Unfreeze layer4 (Tanpa Augmentasi)",
+    "Trainable Params": "8,398,858",
+    "Total Params": "11,181,642",
+    "Learning Rate": "1e-4 (layer4), 1e-3 (fc)",
+    "Epoch Konvergen": "Ep 8 (dari 12)",
+    "Durasi (s)": "151.7",
+    "Best Val Loss": "0.1120",
+    "Peak Val Acc (%)": "95.97% (Ep 7)",
+    "Val Acc @ Best Loss (%)": "95.64%",
+    "Test Acc (%)": "96.32%",
+    "Test Macro F1": "0.9634"
+  },
+  "B5 (EfficientNet-B0 Bonus)": {
+    "Kondisi": "B5 (EfficientNet-B0 Bonus)",
+    "Strategi": "Unfreeze top stage + Head",
+    "Trainable Params": "424,970",
+    "Total Params": "4,020,358",
+    "Learning Rate": "1e-4 (stage), 1e-3 (head)",
+    "Epoch Konvergen": "Ep 16 (dari 20)",
+    "Durasi (s)": "367.6",
+    "Best Val Loss": "0.1470",
+    "Peak Val Acc (%)": "95.64% (Ep 14)",
+    "Val Acc @ Best Loss (%)": "95.30%",
+    "Test Acc (%)": "97.32%",
+    "Test Macro F1": "0.9732"
+  }
+}
